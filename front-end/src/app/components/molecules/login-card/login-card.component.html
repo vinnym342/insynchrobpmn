@@ -1,0 +1,16 @@
+<div class="login-card-container">
+  <div class="login-card">
+    <mat-card>
+      <br>
+      <mat-form-field>
+        <input matInput #email placeholder="Email" type="text">
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+        <input matInput #password placeholder="Password" type="password">
+      </mat-form-field>
+      <br>
+      <button mat-button (click)="onClick(email.value,password.value)" type="submit">Submit</button>
+    </mat-card>
+  </div>
+</div>

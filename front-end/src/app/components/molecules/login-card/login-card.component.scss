@@ -1,0 +1,13 @@
+.login-card-container {
+  display: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  .login-card {
+    width: 50%;
+    align-self:center;
+  }
+
+}
